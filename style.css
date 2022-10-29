@@ -88,11 +88,10 @@ body, html {
 	border-radius: 50%;
 	
 }
-.big {
+.large {
 	width: 75px; height: 75px;
 }
 /* side nav */
-
 .nav {
 	display: grid;
 	grid-template-rows: 100px 350px 300px;
@@ -112,11 +111,11 @@ body, html {
 	height: 60px;
 	gap: 15px;
 }
-.header-icon {
+.nav-header-icon {
 	height: 60px;
-	width: 60gitpx;
+	width: 60px;
 }
-.nav-icon {
+.nav-item-icon {
 	width: 30px;
 	height: 30px;
 }
