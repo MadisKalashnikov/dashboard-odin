@@ -119,3 +119,52 @@ body, html {
 	width: 30px;
 	height: 30px;
 }
+.main-content {
+	background-color: rgba(128, 128, 128, 0.215);
+	display: grid;
+	grid-template-columns: 3fr 1.5fr;
+}
+.cards-header {
+	align-self: end;
+	grid-column: 1/-1;
+}
+/* projects */
+.projects {
+	display: grid;
+	padding: 20px;
+}
+.cards-container {
+	display: grid;
+	grid-template-rows: 1fr 5fr 5fr 5fr;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+.project-card {
+	border-left: 5px solid orange;
+	border-radius: 5px;
+	padding: 15px;
+	padding-block: 25px;
+	padding-inline: 20px;
+	background-color: white;
+	position: relative;
+}
+.card-description {
+	max-height: 100px;
+	height: 100%;
+	overflow: auto;
+}
+.card-options {
+	display: flex;
+	align-self: flex-end;
+	gap: 15px;
+	position: absolute;
+	right: 20px;
+	bottom: 15px;
+}
+.card-option {
+	width: 25px; height: 25px;
+}
+/* aside */
+.aside-container {
+	grid-column: 2 / 3;
+}
